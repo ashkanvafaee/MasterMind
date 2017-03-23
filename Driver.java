@@ -1,11 +1,4 @@
-/*  * EE422C Project 2 (Mastermind) submission by
- * Replace <...> with your actual data. 
- * Ashkan Vafaee
- * av28837
- * Slip days used: 0
- * Spring 2017
- */
-
+// Game driver used to run the game
 package assignment2;
 
 public class Driver {
