@@ -1,3 +1,5 @@
+//Used to generate a random secrete code for the user to guess
+
 package assignment2;
 
 import java.util.Random;
