@@ -1,10 +1,4 @@
-/*  * EE422C Project 2 (Mastermind) submission by
- * Replace <...> with your actual data. 
- * Ashkan Vafaee
- * av28837
- * Slip days used: 0
- * Spring 2017
- */
+//Implements history functionality: saves past guesses by player and prints past guesses when "HISTORY" entered.
 
 package assignment2;
 
