@@ -1,10 +1,4 @@
-/*  * EE422C Project 2 (Mastermind) submission by
- * Replace <...> with your actual data. 
- * Ashkan Vafaee
- * av28837
- * Slip days used: 0
- * Spring 2017
- */
+//Implements the main Game elements and runs the actual games
 package assignment2;
 
 import java.util.*;
@@ -37,6 +31,7 @@ public class Game {
 		System.out.print("You lose! The pattern was");
 	}
 
+	//Runs games until user exits program
 	public void runGame(){
 		
 		Scanner input = new Scanner(System.in);
@@ -75,7 +70,7 @@ public class Game {
 			response = input.nextLine();
 			
 			
-			if(!p.invalidGuess(response) && !response.equals(historyName)){					//skip this check if "HISTORY"
+			if(!p.invalidGuess(response) && !response.equals(historyName)){		//skip this check if "HISTORY"
 				System.out.println("INVALID_GUESS");
 				turnsFlag=true;
 			}
