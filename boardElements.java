@@ -1,10 +1,5 @@
-/*  * EE422C Project 2 (Mastermind) submission by
- * Replace <...> with your actual data. 
- * Ashkan Vafaee
- * av28837
- * Slip days used: 0
- * Spring 2017
- */
+// Initializes the game board elements and keeps track of number of player turns left.
+
 package assignment2;
 
 public class boardElements extends Game {
