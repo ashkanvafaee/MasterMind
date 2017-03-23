@@ -1,10 +1,5 @@
-/*  * EE422C Project 2 (Mastermind) submission by
- * Replace <...> with your actual data. 
- * Ashkan Vafaee
- * av28837
- * Slip days used: 0
- * Spring 2017
- */
+//Analyzes player guessed peg sequence to identify validity of input and how close
+//guess was to the secret code
 package assignment2;
 
 public class pegs extends boardElements {
